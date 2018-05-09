@@ -2,6 +2,8 @@ begin = True
 end = False
 code = ''
 string = 'abcdefghijklmnopqrstuvxyz'
+for i in range (945, 970):
+  string+=chr(i) #adding the greek alphabet 
 
 while end==False:
   n = ''
